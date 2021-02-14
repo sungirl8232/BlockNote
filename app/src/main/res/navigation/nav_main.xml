@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/noteListFragment"
+    android:id="@+id/nav_main">
+
+    <fragment
+        android:id="@+id/noteListFragment"
+        android:name="com.block.note.presentation.feature.list.NoteListFragment"
+        tools:layout="@layout/fragment_note_list"
+        android:label="NoteListFragment">
+
+    </fragment>
+
+</navigation>
