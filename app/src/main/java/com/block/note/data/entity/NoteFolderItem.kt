@@ -18,6 +18,7 @@ sealed class NoteFolderItem {
         val title: String?,
         val content: String,
         val parentFolderId: Int?,
+        var isNeedPassword: Boolean = false,
         val updatedAt: Long
     ) : NoteFolderItem()
 }
